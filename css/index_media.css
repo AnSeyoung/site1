@@ -1,0 +1,309 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (min-width:1160px){
+   #wrap>div>article,#wrap>div>header,#wrap>div>footer{width:100%}	
+}
+@media screen and (max-width:1159px) and (min-width:980px){}
+@media screen and (max-width:979px) and (min-width:580px){
+   /* header */
+   header>nav{
+      width:50%; height:100vh;
+		position:fixed;
+		left:-50%; top:0;
+		padding:20vh 15vw 0;
+		box-sizing:border-box;
+		background-color:#cae2c6;
+	}
+   header>nav>ul{
+		display:block;
+		border-top:1px solid #fff;
+	}
+	header>nav>ul>li{margin-left:0px;}
+	header>nav>ul>li>a{
+		display:block;
+		text-align:center;
+		font: bold 24px/20vh 'webfont01',Arial, sans-serif;
+		border-bottom:1px solid #fff;
+		box-sizing:border-box;
+	}
+   /*  버튼 군단 */
+	#btn{display:block;}
+	nav>.close{display:block;}
+	/* box01 */
+	#box01>article{
+		width:153vw; height:100vh;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:flex-start;
+	}
+	#box01>article>section{
+		width:49vw; height:100vh; 
+		margin-right:2vw;
+		position:relative;
+	}
+	/* box02 */
+	#box02 ul{
+		width:689px; height:619px;
+	}
+	#box02 ul>li:nth-child(1){
+		width:218px;
+		top:105px; left:140px;
+	}
+	#box02 ul>li:nth-child(2){
+		width:353px;
+		top:245px; left:30px;
+	}
+	#box02 ul>li:nth-child(3){
+		width:353px;
+		top:35px; right:40px;
+	}
+	#box02 ul>li:nth-child(4){
+		 width:192px;
+		top:490px; left:245px;
+	}
+	#box02 ul>li>dl{
+		position:absolute;
+		top:0; left:0;
+	}
+	#box02 ul>li:nth-child(1)>dl{top:30px; left:35px;}
+	#box02 ul>li:nth-child(2)>dl{top:90px; left:110px;}
+	#box02 ul>li:nth-child(3)>dl{top:100px; left:105px;}
+	#box02 ul>li:nth-child(4)>dl{top:30px; left:17.5px;}
+	.name{
+		width:118px;
+		top:0; left:0;
+	}
+	.motto{
+		width:253px;
+		top:0; left:0;
+	}
+	.education{
+		width:363px;
+		top:0; left:0;
+	}
+	.resume{
+		width:92px;
+		top:0; left:0;
+	}
+	/* box03 */
+	#box03>ul{margin:45px 150px 0 0;}
+	/* box04 */
+	#box04>article>h3{padding:155px 0 20px 150px;}
+	#box04>article>div#show{
+		width:80vw;
+		margin: 0 auto;
+		overflow:hidden;
+	}
+	#box04>article>div>div#all{width:240vw;}
+	#box04>article>div>div figure{
+		/* width:27%; */
+		width:40vw; 
+		margin:5px 0;
+	}
+	#box04>article>div>div figure>img{
+		/* width:260px; */
+		width:38vw;
+	}
+	#box04 .left{
+		display:block;
+		position:absolute;
+		left:2.5vw;
+		top:50%;
+		width:30px;
+		height:30px;
+	}   
+	#box04 .right{
+		display:block;
+		position:absolute;
+		right:2.5vw;
+		top:50%;
+		width:30px;
+		height:30px;
+	}   
+	.portfolio1{top:75px; right:0;}
+	.portfolio2{top:140px; right:115px}
+	.portfolio3{top:125px; right:80px;}
+	.portfolio4{top:150px; right:105px;}
+	.portfolio5{top:165px; right:115px;}
+	.portfolio6{top:355px; right:100px;}
+	/* box05 */
+	#box05 p{top:320px; right:100px;}
+	#box05 figure>img{bottom:280px; right:105px;}
+	/* aside */
+	aside#submenu ul>li>a{display:none;}
+}
+
+@media screen and (max-width:579px){
+	 /* header */
+	 header>nav{
+      width:100%; height:100vh;
+		position:fixed;
+		left:-100%; top:0;
+		padding:20vh 15vw 0;
+		box-sizing:border-box;
+		background-color:#cae2c6;
+	}
+   header>nav>ul{
+		display:block;
+		border-top:1px solid #fff;
+	}
+	header>nav>ul>li{margin-left:0px;}
+	header>nav>ul>li>a{
+		display:block;
+		text-align:center;
+		font: bold 24px/20vh 'webfont01',Arial, sans-serif;
+		border-bottom:1px solid #fff;
+		box-sizing:border-box;
+	}
+	/*  버튼 군단 */
+	#btn{display:block;}
+	nav>.close{display:block;}
+	/* box01 */
+	#box01>article{
+		width:300vw; height:100vh;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:flex-start;
+	}
+   #box01>article>section{
+      width:100vw; height:100vh;
+      position:relative;
+   }
+	/* box02 */
+	#box02{height:100%;}
+	#box02 h3{
+		padding:155px 0 0 0;
+		text-align:center;
+	}
+	#box02 ul{
+		width:344px; height:309px;
+		font:19px/18px 'webfont01',Arial,sans-serif;
+	}
+	#box02 ul>li:nth-child(1){
+		width:80px;
+		top:85px; left:40px;
+	}
+	#box02 ul>li:nth-child(2){
+		width:180px;
+		top:160px; left:15px;
+	}
+	#box02 ul>li:nth-child(3){
+		width:280px;
+		top:10px; right:-55px;
+	}
+	#box02 ul>li:nth-child(4){
+		 width:192px;
+		top:260px; left:95px;
+	}
+	#box02 ul>li>dl{
+		position:absolute;
+		top:0; left:0;
+	}
+	#box02 ul>li:nth-child(1)>dl{top:15px; left:17.5px;}
+	#box02 ul>li:nth-child(2)>dl{top:30px; left:27.5px;}
+	#box02 ul>li:nth-child(3)>dl{top:60px; left:45px;}
+	#box02 ul>li:nth-child(4)>dl{top:10px; left:2.5px;}
+	.name{
+		width:68px;
+		top:0; left:0;
+	}
+	.motto{
+		width:103px;
+		top:0; left:0;
+	}
+	.education{
+		width:213px;
+		top:0; left:0;
+	}
+	.resume{
+		width:42px;
+		top:0; left:0;
+	}
+	/* box03 */
+	#box03{height:100%;}
+	#box03 h3{
+		padding:155px 0 0 0;
+		text-align:center;
+	}
+	#box03 ul{
+		width:90%;
+		margin:75px 0;
+		float:none;
+	}
+	#box03 ul>li{
+		margin-bottom:60px;
+		padding-left:65px;
+	}
+	#box03 ul>li>dfn{
+		display:block;
+		position:static;
+		left:0; top:0;
+		font:bold 30px 'webfont01',Arial, sans-serif;
+		color:#21a2f1;
+		text-transform:capitalize;
+		z-index:200;
+	}
+	/* box04 */
+	#box04>article h3{
+		padding:155px 0 20px;
+		text-align:center;
+	}
+	#box04 ul>li{padding:0 20px;}
+	#box04>article>div#show{
+		width:60vw;
+		margin: 0 auto;
+		overflow:hidden;
+	}
+	#box04>article>div>div#all{
+		width:360vw;
+	justify-content: flex-start;}
+	#box04>article>div>div figure{
+		/* width:27%; */
+		width:60vw; 
+		margin:5px 0;
+		text-align:center;
+	}
+	#box04>article>div>div figure>img{
+		/* width:38vw; */
+		width:96%;
+	}
+	#box04 .left{
+		display:block;
+		position:absolute;
+		left:2.5vw;
+		top:50%;
+		width:30px;
+		height:30px;
+	}   
+	#box04 .right{
+		display:block;
+		position:absolute;
+		right:2.5vw;
+		top:50%;
+		width:30px;
+		height:30px;
+	}   
+	.portfolio1{top:32px; right:0;}
+	.portfolio2{top:68px; right:65px}
+	.portfolio3{top:65px; right:45px;}
+	.portfolio4{top:80px; right:62px;}
+	.portfolio5{top:92px; right:68px;}
+	.portfolio6{top:192px; right:52px;}
+	/* box05 */
+	#box05 h3{
+		padding:155px 0 0;
+		text-align:center;
+	}
+	#box05 figure{
+		position:absolute;
+		top:40%; left:32.5%;
+		text-align:center;
+	 }
+	 #box05 figure>img{width:200px;}
+	 #box05 figure>figcaption{
+		padding-top:10px;
+		font:24px'webfont01',Arial,sans-serif;
+	 }
+	/* aside */
+	aside#submenu ul>li>a{display:none;}
+}
